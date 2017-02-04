@@ -117,7 +117,7 @@ class CldrModel
     }
 
     /**
-     * Returns multi-dimensional array representing desired node and it's children,
+     * Returns multi-dimensional array representing desired node and its children,
      * or a string value if the path points to a leaf.
      *
      * Syntax for paths is very simple. It's a group of array indices joined
@@ -155,7 +155,7 @@ class CldrModel
     }
 
     /**
-     * Returns multi-dimensional array representing desired node and it's children.
+     * Returns multi-dimensional array representing desired node and its children.
      *
      * This method will return FALSE if the path points to a leaf (i.e. a string,
      * not an array).
@@ -246,7 +246,7 @@ class CldrModel
      *
      * An internal representation of CLDR data used by this class is a simple
      * multi dimensional array where keys are nodes' names. If node has attributes,
-     * they are all stored as one string (e.g. 'calendar[@type="gregorian"]' or
+     * they are all stored as one string (e.g., 'calendar[@type="gregorian"]' or
      * 'calendar[@type="gregorian"][@alt="proposed-x1001"').
      *
      * This convenient method extracts a value of desired attribute by its name
@@ -332,7 +332,7 @@ class CldrModel
      *
      * CLDR uses 'alias' tag which denotes places where data should be copied
      * from. This tag has 'source' attribute pointing (by relative XPath query)
-     * to the source node - it should be copied with all it's children.
+     * to the source node - it should be copied with all its children.
      *
      * @param mixed $data Part of internal array to resolve aliases for (string if leaf, array otherwise)
      * @param string $currentPath Path to currently analyzed part of data

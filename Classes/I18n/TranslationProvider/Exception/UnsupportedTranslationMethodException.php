@@ -22,7 +22,7 @@ use Neos\Flow\I18n;
  *
  * This exception can be thrown by a concrete class implementing
  * \Neos\Flow\I18n\TranslationProvider\TranslationProviderInterface when one
- * of the interface methods is not supported (eg. when storage method makes it
+ * of the interface methods is not supported (e.g., when storage method makes it
  * impossible).
  *
  * @api

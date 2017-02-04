@@ -75,7 +75,7 @@ class LocaleCollection
      * course if it exists in the locale tree of available locales.
      *
      * This method returns NULL when no parent locale is available, or when
-     * Locale object provided is not in the tree (ie it's not in a group of
+     * Locale object provided is not in the tree (i.e. it's not in a group of
      * available locales).
      *
      * Note: to find a best-matching locale to one which doesn't exist in the

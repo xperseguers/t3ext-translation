@@ -115,7 +115,7 @@ class NumbersReader
      *     No less than 0 (which means no decimal part).
      * - minIntegerDigits: at least so many digits will be printed for integer
      *     part of the number (padded with zeros if needed). No less than 1.
-     * - primaryGroupingSize: Where to put the first grouping separator (e.g.
+     * - primaryGroupingSize: Where to put the first grouping separator (e.g.,
      *     thousands). Zero means no separator (also no secondary separator!).
      * - secondaryGroupingSize: Where to put the second grouping separators (used
      *     after the primary separator - eg for primaryGroupingSize set to 3 and

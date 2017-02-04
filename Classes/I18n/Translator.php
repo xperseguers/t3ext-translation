@@ -23,11 +23,11 @@ use Neos\Flow\I18n;
  *
  * Messages (labels) can be translated in two modes:
  * - by original label: untranslated label is used as a key
- * - by ID: string identifier is used as a key (eg. user.noaccess)
+ * - by ID: string identifier is used as a key (e.g., user.noaccess)
  *
  * Correct plural form of translated message is returned when $quantity
  * parameter is provided to a method. Otherwise, or on failure just translated
- * version is returned (eg. when string is translated only to one form).
+ * version is returned (e.g., when string is translated only to one form).
  *
  * When all fails, untranslated (original) string or ID is returned (depends on
  * translation method).

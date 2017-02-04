@@ -444,7 +444,7 @@ class DatesReader
     }
 
     /**
-     * Parses one CLDR child of "dates" node and returns it's array representation.
+     * Parses one CLDR child of "dates" node and returns its array representation.
      *
      * Many children of "dates" node have common structure, so one method can
      * be used to parse them all.
@@ -481,7 +481,7 @@ class DatesReader
     }
 
     /**
-     * Parses "eras" child of "dates" node and returns it's array representation.
+     * Parses "eras" child of "dates" node and returns its array representation.
      *
      * @param CldrModel $model CldrModel to read data from
      * @return array An array with localized literals for "eras" node

@@ -53,7 +53,7 @@ class CldrRepository
      * 'locale' is not used. For models representing few CLDR files connected
      * with hierarchical relation, 'path' points to a directory where files
      * reside and 'locale' is used to define which files are included in the
-     * relation (e.g. for locale 'en_GB' files would be: root + en + en_GB).
+     * relation (e.g., for locale 'en_GB' files would be: root + en + en_GB).
      *
      * @var array<CldrModel>
      */

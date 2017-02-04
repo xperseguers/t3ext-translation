@@ -31,7 +31,7 @@ use Neos\Flow\Log\LoggerInterface;
  * There are very few XLIFF editors, but they are nice Gettext's .po editors
  * available. Gettext supports plural forms, but it indexes them using integer
  * numbers. Leaving it this way in .xlf files, makes it possible to easily convert
- * them to .po (e.g. using xliff2po from Translation Toolkit), edit with Poedit,
+ * them to .po (e.g., using xliff2po from Translation Toolkit), edit with Poedit,
  * and convert back to .xlf without any information loss (using po2xliff).
  *
  * @see http://docs.oasis-open.org/xliff/v1.2/xliff-profile-po/xliff-profile-po-1.2-cd02.html#s.detailed_mapping.tu

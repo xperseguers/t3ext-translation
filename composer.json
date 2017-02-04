@@ -1,0 +1,57 @@
+{
+  "name": "causal/translation",
+  "type": "typo3-cms-extension",
+  "description": "This extension provides extended support for XLIFF-based translation.",
+  "keywords": [
+    "TYPO3 CMS",
+    "XLIFF",
+    "localization",
+    "translation",
+    "internationalization"
+  ],
+  "homepage": "https://github.com/xperseguers/t3ext-translation",
+  "support": {
+    "issues": "https://github.com/xperseguers/t3ext-translation/issues"
+  },
+  "authors": [
+    {
+      "name": "Xavier Perseguers",
+      "email": "xavier@causal.ch",
+      "homepage": "https://www.causal.ch",
+      "role": "Developer"
+    }
+  ],
+  "license": "GPL-2.0+",
+  "require": {
+    "php": ">= 5.5.0, <= 7.1.99",
+    "typo3/cms-core": ">= 7.6.0, <= 8.99.99"
+  },
+  "autoload": {
+    "psr-4": {
+      "Causal\\Translation\\": "Classes/"
+    }
+  },
+  "replace": {
+    "translation": "self.version",
+    "typo3-ter/translation": "self.version"
+  },
+  "config": {
+    "vendor-dir": ".Build/vendor",
+    "bin-dir": ".Build/bin"
+  },
+  "scripts": {
+    "post-autoload-dump": [
+      "mkdir -p .Build/Web/typo3conf/ext/",
+      "[ -L .Build/Web/typo3conf/ext/translation ] || ln -snvf ../../../../. .Build/Web/typo3conf/ext/translation"
+    ]
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1.x-dev"
+    },
+    "typo3/cms": {
+      "cms-package-dir": "{$vendor-dir}/typo3/cms",
+      "web-dir": ".Build/Web"
+    }
+  }
+}
